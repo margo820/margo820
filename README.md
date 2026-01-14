@@ -15,7 +15,7 @@
 
 💻 **Internship Experience**  
 
-- 🚀 **AI Research Intern @ Kuaishou (2026.01—Present)**  
+- 🚀 **Multimodal Large Model Algorithm Intern @ Kuaishou (2025.11—Present)**  
   - Developed and fine-tuned models for video content understanding, focusing on special effects analysis using multimodal data
   - Implemented data labeling and augmentation pipelines for video effect recognition, including foreground, background, and facial effect categories
   - Conducted training experiments using Qwen2.5-VL model for enhanced video effect detection and real-time processing
