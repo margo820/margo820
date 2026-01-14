@@ -7,7 +7,7 @@
 ---
 
 🔬 **Research & Projects**  
-- 📝 *Mind the Context: Attention-Guided Weak-to-Strong Consistency for Enhanced Semi-Supervised Medical Image Segmentation* (2nd Author, under review at BIBM, CCF-B)  
+- 📝 *Mind the Context: Attention-Guided Weak-to-Strong Consistency for Enhanced Semi-Supervised Medical Image Segmentation* (2nd Author, https://arxiv.org/abs/2410.12419)  
   - Proposed an attention-guided perturbation strategy for semi-supervised medical image segmentation  
   - Contributed to idea analysis, code debugging, and optimization  
 
