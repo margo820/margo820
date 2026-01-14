@@ -14,6 +14,13 @@
 ---
 
 💻 **Internship Experience**  
+
+- 🚀 **AI Research Intern @ Kuaishou (2026.01—Present)**  
+  - Developed and fine-tuned models for video content understanding, focusing on special effects analysis using multimodal data
+  - Implemented data labeling and augmentation pipelines for video effect recognition, including foreground, background, and facial effect categories
+  - Conducted training experiments using Qwen2.5-VL model for enhanced video effect detection and real-time processing
+  - Collaborated with cross-functional teams to improve content analysis accuracy and efficiency in short-video processing
+    
 - 🚘 **Vision Perception Algorithm Intern @ Meijia Technology (2025.04—2025.06)**  
   - Integrated PGD module (DP, DL) into FCOS3D for depth estimation optimization  
   - Built automated visualization & evaluation pipeline for QNN inference results  
