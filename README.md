@@ -1,61 +1,130 @@
 ## Hi there 👋 I'm Margo820
 
-🎓 **Education**  
-- 📚 Master of Artificial Intelligence (2025.09 - 2028.06), Beijing University of Posts and Telecommunications (BUPT)  
-- 🎓 Bachelor of Artificial Intelligence (2021.09 - 2025.06), Huazhong Agricultural University (HZAU) 
+---
+
+### 🎓 Education
+
+* **Master of Artificial Intelligence**, Beijing University of Posts and Telecommunications (BUPT)
+  *2025.09 – 2028.06*
+* **Bachelor of Artificial Intelligence**, Huazhong Agricultural University (HZAU)
+  *2021.09 – 2025.06*
 
 ---
 
-🔬 **Research & Projects**  
-- 📝 *Mind the Context: Attention-Guided Weak-to-Strong Consistency for Enhanced Semi-Supervised Medical Image Segmentation* (2nd Author, https://arxiv.org/abs/2410.12419)  
-  - Proposed an attention-guided perturbation strategy for semi-supervised medical image segmentation  
-  - Contributed to idea analysis, code debugging, and optimization  
+### 🔬 Research
+
+**📄 Mind the Context: Attention-Guided Weak-to-Strong Consistency for Enhanced Semi-Supervised Medical Image Segmentation**
+
+**2nd Author**
+
+* Proposed an **attention-guided perturbation framework** for weak-to-strong consistency regularization in semi-supervised segmentation
+* Achieved **SOTA performance** on ACDC & ISIC-2017 (Dice up to **90.4%**)
+* Responsible for **method design, core implementation, and performance optimization**, and co-authored the paper
 
 ---
 
-💻 **Internship Experience**  
+### 💻 Internship Experience
 
-- 🚀 **Multimodal Large Model Algorithm Intern @ Kuaishou (2025.10—2026.3)**  
-  - Developed and fine-tuned models for video content understanding, focusing on special effects analysis using multimodal data
-  - Implemented data labeling and augmentation pipelines for video effect recognition, including foreground, background, and facial effect categories
-  - Conducted training experiments using Qwen2.5-VL model for enhanced video effect detection and real-time processing
-  - Collaborated with cross-functional teams to improve content analysis accuracy and efficiency in short-video processing
-    
-- 🚘 **Vision Perception Algorithm Intern @ Meijia Technology (2025.04—2025.08)**  
-  - Integrated PGD module (DP, DL) into FCOS3D for depth estimation optimization  
-  - Built automated visualization & evaluation pipeline for QNN inference results  
-  - Processed driving & parking datasets: cleaning, augmentation, visualization, and training set generation  
+#### 🧠 Multimodal LLM Algorithm Intern @ Tencent WXG (WeChat Group)
 
-- 🚗 **Algorithm Engineer Intern @ Xiaomi (2025.01—2025.03)**  
-  - Built multi-scenario testing framework (regen/logsim closed-loop simulation) with 20+ complex traffic cases  
-  - Analyzed SU7 road test logs to debug sensor fusion delays & decision logic errors  
-  - Designed hybrid reinforcement learning + rule-based algorithm for merging/lane-change decision-making  
+*2026.04 – Present*
+
+* Working on **multimodal foundation models for content safety moderation**, covering image, video, and text
+* Participating in **safety data construction and model alignment** for real-world auditing scenarios
+* Assisting in building a **safety auditing agent pipeline** based on LLM reasoning and tool integration
+
+#### 🚀 Multimodal LLM Algorithm Intern @ Kuaishou
+
+*2025.10 – 2026.03*
+
+* Built a **multimodal large model for video effect understanding** based on Qwen2.5-VL / Qwen3-VL
+
+  * Enabled structured recognition of **filters, foreground/background, and fine-grained facial effects** (makeup, reshaping, stickers)
+  * Deployed in **short-video effect generation and recommendation pipeline**
+
+* Proposed a **Modality Pyramid Training Strategy**
+
+  * Progressive training from simple to complex multimodal tasks
+  * Improved **generalization and robustness** in real-world video scenarios
+
+* Designed and implemented a **3-stage training + data flywheel pipeline**:
+
+  1. **SFT stage**: human annotation + synthetic data construction
+  2. **Bootstrapping stage**: model inference → human verification → positive/negative dataset
+  3. **Alignment stage**: DPO / GRPO for preference optimization
+
+* Developed **GRPO-based reward modeling strategy**:
+
+  * Explicitly modeled **effect presence, description consistency, and cross-layer disentanglement**
+  * Stabilized RL training and improved controllability
+
+* Achieved:
+
+  * **94%+ accuracy** on effect classification
+  * **+10% improvement over SFT baseline**
+  * Significant gains over untuned multimodal LLMs
+
+#### 🚘 Vision Perception Algorithm Intern @ Meijia Technology
+
+*2025.04 – 2025.08*
+
+* Integrated **PGD (DP/DL)** into FCOS3D / Mono3D framework
+
+  * Improved depth estimation under **long-range and complex scenarios**
+  * Achieved ~**5% performance gain**
+
+* Introduced **Tele-camera data modeling and augmentation strategy**
+
+  * Enhanced robustness for long-distance perception
+
+* Built a full **data processing & evaluation pipeline**:
+
+  * Data cleaning, augmentation, dataset generation
+  * Cloud-based batch inference and evaluation
+  * Formed a **closed-loop training system**
+
+#### 🚗 Algorithm Engineer Intern @ Xiaomi
+
+*2025.01 – 2025.03*
+
+* Built **multi-scenario simulation testing framework** (regen + logsim)
+
+  * Covered **20+ complex driving cases**
+
+* Analyzed real-world logs (SU7)
+
+  * Debugged **sensor fusion latency and decision errors**
+
+* Designed **hybrid RL + rule-based policy** for lane-change / merge decisions
 
 ---
 
-🏅 **Honors & Awards**  
-- 🥈 ACM-ICPC Xi’an Regional Silver Medal (2023)  
-- 🥈 CCPC Hubei Provincial Silver Medal (2023)  
-- 🥈 National Collegiate Programming Contest (Autumn 2022-2023) Silver Medal  
-- 🥉 CCF National Algorithm Elite Competition 3rd Prize (2024)  
-- 🥈 National College Student Ladder Contest Finals Team 2nd Prize (2024)  
-- 🤖 China Intelligent Robot Contest (Service Robot Competition) 2nd Prize (2023)  
+### 🏅 Honors & Awards
+
+* 🥈 ACM-ICPC Xi’an Regional Silver Medal (2023)
+* 🥈 CCPC Hubei Provincial Silver Medal (2023)
+* 🥈 National College Student Ladder Contest Finals (Team 2nd Prize, 2024)
+* 🥉 CCF Algorithm Elite Competition (2024)
+* 🥈 China Intelligent Robot Competition (2023)
 
 ---
 
-⚡ **Skills**  
-- Programming: C++ / Python (Proficient in Algorithms & Data Structures, Engineering Development)  
-- ML/DL: Computer Vision (Classification, Segmentation, Object Detection), 3D Perception (Mono3D, FCOS3D, PGD), Reinforcement Learning, NLP  
-- Tools: PyTorch, LangChain, HuggingFace, Faiss, TensorRT, CUDA, Docker  
-- Math Foundation: Calculus, Linear Algebra, Matrix Theory (Strong background)  
-- Languages: CET-4 (462), CET-6 (454)  
+### ⚡ **Skills** 
+- Programming: C++ / Python (Proficient in Algorithms & Data Structures, Engineering Development)
+- ML/DL: Multimodal LLM, RLHF (GRPO / DPO), Computer Vision, 3D Perception, Reinforcement Learning, NLP
+- Tools: PyTorch, LangChain, HuggingFace, Faiss, TensorRT, CUDA, Docker, Distributed Training (DDP / DeepSpeed), LoRA
+- Math Foundation: Calculus, Linear Algebra, Matrix Theory (Strong background)
+- Languages: CET-4 (462), CET-6 (454)
 
 ---
 
-📫 **Contact Me**  
-- 📧 Email: 3185717720@qq.com  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=margo820&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=margo820&layout=compact&theme=radical)  
----
+### 📫 **Contact Me** 
+- 📧 Email: 3185717720@qq.com
 
-⭐️ *“Keep pushing boundaries in AI, from algorithms to applications.”*
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=margo820&show_icons=true&theme=radical)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=margo820&layout=compact&theme=radical)
+
+---
+  
+### ⭐️ *“Keep pushing boundaries in AI, from algorithms to applications.”*
