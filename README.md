@@ -27,7 +27,7 @@
 
 #### 🧠 Multimodal LLM Algorithm Intern @ Tencent WXG (WeChat Group)
 
-*2026.04 – Present*
+*2025.04 – 2025.09*
 
 * Working on **multimodal foundation models for content safety moderation**, covering image, video, and text
 * Participating in **safety data construction and model alignment** for real-world auditing scenarios
@@ -35,7 +35,7 @@
 
 #### 🚀 Multimodal LLM Algorithm Intern @ Kuaishou
 
-*2025.10 – 2026.03*
+*2024.10 – 2025.03*
 
 * Built a **multimodal large model for video effect understanding** based on Qwen2.5-VL / Qwen3-VL
 
@@ -66,7 +66,7 @@
 
 #### 🚘 Vision Perception Algorithm Intern @ Meijia Technology
 
-*2025.04 – 2025.08*
+*2024.04 – 2024.08*
 
 * Integrated **PGD (DP/DL)** into FCOS3D / Mono3D framework
 
@@ -85,7 +85,7 @@
 
 #### 🚗 Algorithm Engineer Intern @ Xiaomi
 
-*2025.01 – 2025.03*
+*2024.01 – 2024.03*
 
 * Built **multi-scenario simulation testing framework** (regen + logsim)
 
