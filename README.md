@@ -4,10 +4,10 @@ I'm an **AI Master's student at BUPT**, focusing on **Multimodal LLMs, Reinforce
 
 ### 💻 Experience
 
-* **Tencent WXG · Multimodal LLM Algorithm Intern** *(2026.03 – 2026.08)* — Worked on the foundation model for WeChat video/live-stream safety moderation, including large-scale CPT data construction, GRPO post-training, RAG, and safety evaluation.
-* **Kuaishou · AIGC Algorithm Intern** *(2025.10 – 2026.03)* — Built multimodal models for fine-grained video effect understanding, covering SFT, modality-pyramid training, and GRPO-based alignment.
-* **Megatron Technology · Vision Algorithm Intern** *(2025.04 – 2025.08)* — Improved long-range 3D perception with PGD-based depth estimation and tele-camera data modeling, achieving a **5% AP@0.5 improvement**.
-* **Xiaomi · Algorithm Engineer Intern** *(2025.01 – 2025.03)* — Worked on autonomous-driving simulation, real-world driving log analysis, and hybrid RL + rule-based decision policies for lane changing and merging.
+* **Tencent WXG · Multimodal LLM Algorithm Intern**  — Worked on the foundation model for WeChat video/live-stream safety moderation, including large-scale CPT data construction, GRPO post-training, RAG, and safety evaluation.
+* **Kuaishou · AIGC Algorithm Intern**  — Built multimodal models for fine-grained video effect understanding, covering SFT, modality-pyramid training, and GRPO-based alignment.
+* **Megatron Technology · Vision Algorithm Intern**  — Improved long-range 3D perception with PGD-based depth estimation and tele-camera data modeling, achieving a **5% AP@0.5 improvement**.
+* **Xiaomi · Algorithm Engineer Intern**  — Worked on autonomous-driving simulation, real-world driving log analysis, and hybrid RL + rule-based decision policies for lane changing and merging.
 
 ### 🔬 Research
 
