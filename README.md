@@ -16,7 +16,7 @@ I'm an **AI Master's student at BUPT**, focusing on **Multimodal LLMs, Reinforce
 
 Proposed a two-stage **behavioral SFT + geometry-augmented GRPO (GA-GRPO)** framework to align MLLM visual similarity judgments with human behavior, improving Qwen2.5-VL agreement on THINGS from **42.3% to 87.4%**.
 
-[Paper](https://openreview.net/forum?id=SaNrnGNbDN) · [PDF](https://openreview.net/pdf?id=SaNrnGNbDN)
+[Paper]·[PDF] coming soon
 
 ### ⚡ Tech
 
